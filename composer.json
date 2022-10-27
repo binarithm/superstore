@@ -1,0 +1,19 @@
+{
+    "name": "binarithm/superstore",
+    "description": "A multivendor marketplace plugin for wordpress",
+    "type": "wordpress-plugin",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Binarithm",
+            "email": "info@binarithm.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "Binarithm\\Superstore\\": "includes/"
+        }
+    }
+}
